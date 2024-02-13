@@ -11,8 +11,8 @@
 
    ```shell
 
-   git clone https://github.com/ikramuzzaman455173/complete-react-project-setup-structure-file.git
-   
+   git clone https://github.com/modernteam50/GramBaZar.git
+
    ```
 
    This will download the project to your local machine.
@@ -21,7 +21,7 @@
    - Change your working directory to the cloned project's directory:
 
    ```shell
-   cd react-tailwind-starter-templates
+   cd GramBaZar
    ```
 
    - Use npm to install the project's dependencies, which are typically listed in a `package.json` file:
@@ -36,7 +36,7 @@
    For example:
 
    ```shell
-   npm start
+   npm run dev
    ```
 
 5. **Accessing the Project**:
@@ -45,6 +45,5 @@
 6. ***This Repo Open Run & Install One Single Line Of Command:***
 
 ```bash
-   git clone https://github.com/ikramuzzaman455173/complete-react-project-setup-structure-file.git && cd complete-react-project-setup-structure-file && npm install && code . && npm run dev
+   git clone https://github.com/modernteam50/GramBaZar.git && cd GramBaZar && npm install && code . && npm run dev
 ```
-
