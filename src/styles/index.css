@@ -15,6 +15,13 @@
   --tiny-font-size: 12px;
 }
 
+:root{
+  --color-primary: #4b1c80;
+  --color-secondary: #79f116;
+  --color-gray: #c5c5c5;
+  --color-black: #000000;
+}
+
 /* Define breakpoints for responsiveness */
 @media (max-width: 768px) {
   :root {
@@ -50,3 +57,37 @@
 .dark-background{
   @apply dark:bg-gradient-to-br dark:from-slate-800 dark:to-indigo-800
 }
+
+body{
+  background-color: #F3F4F6;
+}
+
+/* =========== color =========== */
+.bg-primary{
+  background-color: var(--color-primary);
+}
+
+.bg-secondary{
+  background-color: var(--color-secondary);
+}
+
+.bg-dark{
+  background-color: var(--color-black);
+}
+
+.text-primary{
+  color: var(--color-primary);
+}
+
+.text-secondary{
+  color: var(--color-secondary);
+}
+
+.text-dark{
+  color: var(--color-black);
+}
+
+.text-gray{
+  color: var(--color-gray);
+}
+
